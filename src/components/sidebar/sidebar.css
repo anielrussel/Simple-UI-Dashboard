@@ -1,0 +1,42 @@
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #5840BB;
+    padding: 4rem 2rem 8rem 2rem ;
+    border-radius: 4rem;
+}
+.sidebar-logo img {
+    width: 80%;
+}
+.sidebar-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 8rem;
+    gap: 2.8rem;
+}
+.sidebar-links img {
+    filter: invert(1%) sepia(1%) saturate(1%) hue-rotate(1deg) brightness(1000%) contrast(80%);
+}
+.sidebar-links:hover img {
+    filter: none;
+}
+.sidebar-links a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 1rem;
+    padding: 0.5rem 3rem 0.5rem 2rem;
+    gap: 1rem;
+}
+.sidebar-links a:hover {
+    background-color: white;
+    color: #5840BB;
+}

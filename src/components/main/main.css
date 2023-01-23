@@ -1,0 +1,239 @@
+.main {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-color: #5840BB;
+    border-radius: 4rem;
+}
+.main-container {
+    display: flex;
+    width: auto;
+    padding: 1rem 1rem 1rem 0;
+    border-radius: 4rem;
+    background-color: transparent;
+    gap: 1rem;
+}
+.main-content {
+    width: auto;
+    padding: 2rem 1rem 1rem 3rem;
+    background-color: white;
+    border-radius: 2rem;
+}
+.main-content  h1 {
+    color: #5840BB;
+    font-size: 25px;
+    font-weight: 400;
+}
+.main-content span {
+    font-weight: 700;
+}
+.content-orders {
+    display: flex;
+    gap: 1.5rem;
+    margin-top: 3rem;
+}
+.orders {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #C7F2FF;
+    line-height: 0.5px;
+    padding: 1rem 3rem 1rem 3rem;
+    width: auto;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 2rem;
+    border-bottom-left-radius: 0.5rem;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.6);
+}
+.profit {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFE5EE;
+    line-height: 0.5px;
+    padding: 1rem 3rem 1rem 3rem;
+    width: auto;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 2rem;
+    border-bottom-right-radius: 0.5rem;
+    border-bottom-left-radius: 2rem;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.6);
+}
+.orders h1,
+.profit h1 {
+    font-size: 20px;
+    font-weight: 700;
+}
+.orders img,
+.profit img {
+    background-color: white;
+    padding: 5px;
+    border-radius: 10px;
+    margin-right: 1rem;
+}
+.orders p,
+.profit p {
+    font-size: 12px;
+    font-weight: 500;
+}
+.orders span,
+.profit span {
+    font-size: 12px;
+    font-size: 700;
+    color: white;
+    padding: 5px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 2px;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 10px;
+    background-color: #5840BB;
+    margin-left: 5px;
+}
+.content-sales {
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem;
+}
+.content-sales h1 {
+    font-size: 16px;
+    font-weight: 700;
+}
+.barchart {
+    margin-top: 2rem;
+    width: auto;
+    height: 20rem;
+}
+.content-profile {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: auto;
+    height: auto;
+    padding: 1rem 1rem 1rem 0;
+    background-color: white;
+    border-radius: 2rem;
+    margin-top: 1rem;
+}
+.profile-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: auto;
+    padding: 1rem;
+    background-color: white;
+    border-radius: 2rem;
+    gap: 2rem;
+}
+.search input {
+    width: 15rem;
+    height: 3rem;
+    border: none;
+    background-color: #F7FAFF;
+    padding-left: 2rem;
+    border-top-left-radius: 1.5rem;
+    border-top-right-radius: 0.3rem;
+    border-bottom-left-radius: 0.3rem;
+    border-bottom-right-radius: 1.5rem;
+    font-family: var(--font-family);
+    color: #5840BB;
+    font-weight: 500;
+}
+.search img {
+    position: absolute;
+    top: 7.2rem;
+    right: 20rem;
+}
+.notif {
+    padding: 0.8rem 1rem;
+    background-color: #F7FAFF;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.notif img {
+    width: 1.2rem;
+}
+.profile {
+    border-radius: 50%;
+    border: 2px solid #F7FAFF;
+    cursor: pointer;
+}
+.profile img {
+    border-radius: 50%;
+    width: 4rem;
+}
+.products {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    border-radius: 2rem;
+    background-color: white;
+    margin-top: 0.5rem;
+    gap: 1rem;
+}
+.products-text {
+    display: flex;
+    justify-content: space-between;
+}
+.products h1 {
+    font-size: 16px;
+    color: #5840BB;
+}
+.products p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    color: #5840BB;
+    font-weight: 500;
+    cursor: pointer;
+}
+.tshirt,
+.jeans,
+.cap {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 3rem;
+}
+.tshirt p,
+.jeans p,
+.cap p {
+    font-weight: 700;
+}
+.tshirt-text p,
+.jeans-text p,
+.cap-text p {
+    font-size: 14px;
+}
+.tshirt-text span,
+.jeans-text span,
+.cap-text span {
+    font-weight: 500;
+}
+.line-chart {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: auto;
+    height: 12rem;
+    background-color: white;
+    padding: 1rem;
+    margin-top: 0.5rem;
+    border-radius: 1rem;
+}
+.line-chart-text {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.line-chart-text h1 {
+    font-size: 16px;
+    color: #5840BB;
+}
+.chart {
+    margin-left: 3rem;
+}
